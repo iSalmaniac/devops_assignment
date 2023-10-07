@@ -13,12 +13,6 @@ echo ""
 sudo apt install npm -y
 echo ""
 echo ""
-sudo apt install pm2 -g
-echo ""
-echo ""
-sudo apt install nginx -y
-echo ""
-echo ""
 sudo apt clean
 echo ""
 echo ""
@@ -36,13 +30,6 @@ echo""
 nginx -v
 echo""
 echo ""
-echo ""
-echo " ###################### PACKAGE RUNNING STATUS ####################"
-echo ""
-sudo systemctl status nginx
-echo ""
-echo ""
-echo "################################### SCRIPT RUN COMPLETE #################################"
 echo ""
 echo ""
 exit 0
