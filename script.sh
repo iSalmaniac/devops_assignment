@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/iSalmaniac/devops_assignment.git
+
 
 cd /home/Ubuntu/devops_assignment
 
