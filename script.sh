@@ -3,7 +3,7 @@
 
 sudo npm install
 
-npm install pm2@latest -g
+sudo npm install pm2 -g
 
 pm2 start index.js --name devops_assignment --watch
 
