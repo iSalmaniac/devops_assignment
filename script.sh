@@ -2,7 +2,7 @@
 
 
 
-cd /home/ubuntu/devops_assignment
+
 
 sudo su
 
