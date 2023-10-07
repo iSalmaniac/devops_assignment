@@ -1,16 +1,15 @@
 #!/bin/bash
 
 
-
 sudo npm install
 
-sudo npm install pm2 -g
+npm install pm2 -g
 
-sudo pm2 start index.js --name devops_assignment --watch
+pm2 start index.js --name devops_assignment --watch
 
-sudo pm2 save
+pm2 unstartup systemd
 
-sudo pm2 list
+pm2 list
 
 
 exit 0
