@@ -4,14 +4,14 @@ sudo apt update
 sudo apt install nginx -y
 sudo systemctl status nginx
 
-sudo echo "server {
+echo "server {
         listen 80;
         listen [::]:80;
 }
 
 upstream webservers {
-    server 10.0.140.28:3000;
-    server 10.0.144.117:3000;
+    server 10.0.152.170:3000;
+    server 10.0.143.44:3000;
 }
 
         # SSL configuration
@@ -86,6 +86,6 @@ upstream webservers {
 #       location / {
 #               try_files $uri $uri/ =404;
 #       }
-#}" > /etc/nginx/site-enabled/default
+#}"
 
 exit 0
