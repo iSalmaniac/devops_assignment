@@ -25,9 +25,6 @@ node -v
 echo ""
 npm -v
 echo""
-pm2 -v
-echo""
-nginx -v
 echo""
 echo ""
 echo ""
